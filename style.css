@@ -2,3 +2,43 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.genres section {
+    text-align: center;
+    line-height: 100px;
+    flex-basis: 200px;
+    height: 100px;
+    flex-grow: 1;
+}
+
+.genres section:nth-child(1) {
+    background-color: rgb(30, 144, 255);
+}
+
+.genres section:nth-child(2) {
+    background-color: rgb(190, 178, 178);
+}
+
+.genres section:nth-child(3) {
+    background-color: rgb(255, 214, 30);
+    flex-grow: 6;
+}
+
+.genres section:nth-child(4) {
+    background-color: rgb(0, 0, 0);
+}
+
+.genres section:nth-child(5) {
+    background-color: rgb(169, 169, 169);
+}
+
+.genres section:nth-child(6) {
+    background-color: rgb(255, 0, 0);
+    flex-grow: 3;
+}
